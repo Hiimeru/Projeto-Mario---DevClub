@@ -27,8 +27,6 @@ a {
     margin-right: 40px;
     color: #ffffff;
     top: -35px;
-
-
 }
 
 
@@ -36,8 +34,8 @@ a {
     display: flex;
     position: relative;
     height: 500px;
-    top: -330px;
-    left: 850px;
+    top: -450px;
+    left: 730px;
 }
 
 #super-mbros{
@@ -47,7 +45,7 @@ a {
 
 .about-us {
     position: relative;
-    justify-content: end;
+    height: 400px;
     width: 650px;
     line-height: 28px;
     color: #ffffff;
