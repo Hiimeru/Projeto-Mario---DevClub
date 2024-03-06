@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+.site-topside  {
+    position: static;
+    font-size: 25px;
+    padding: 20px 20px 0 20px;
+    display: flexbox;
+    width: 100vw;
+}
+
+#logo-header {
+    height: 90px;
+    width:75px;
+    margin-right: 50px;
+
+}
+
+a {
+    position: relative;
+    margin-right: 40px;
+    color: #ffffff;
+    top: -35px;
+
+
+}
+
+
+#mario-bros {
+    display: flex;
+    position: relative;
+    height: 500px;
+    top: -330px;
+    left: 850px;
+}
+
+#super-mbros{
+    height: 21vh;
+    width: 33vh;
+}
+
+.about-us {
+    position: relative;
+    justify-content: end;
+    width: 650px;
+    line-height: 28px;
+    color: #ffffff;
+    display: list-item;
+    top: 100px;
+    left:150px;
+}
+
+button {
+    position: relative;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #c51111;
+    height: 55px;
+    width: 170px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+video {
+
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    border: none;
+    opacity: 0.7;
+}
+
+.mascara{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);    
+}
+
